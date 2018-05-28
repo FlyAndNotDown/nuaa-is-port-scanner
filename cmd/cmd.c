@@ -1,4 +1,4 @@
-#include "../include/cmd.h"
+#include "./cmd.h"
 
 typedef struct {
     int pthread_num;

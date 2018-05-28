@@ -1,4 +1,4 @@
-#include "../include/scanner.h"
+#include "./scanner.h"
 
 int tcp_connect_scan(char *ip, int port) {
     int sockfd, len, fcntl_status, connect_status;

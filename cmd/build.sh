@@ -1,1 +1,1 @@
-gcc ./src/cmd.c ./src/scanner.c -o ./build/scanner -lpthread
+gcc ./cmd.c ./scanner.c -o ./build/scanner -lpthread
