@@ -1,7 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include <string.h>
-#include "gui.h"
 
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
@@ -36,7 +35,7 @@ void MainWindow::on_startScanButton_clicked()
 
     // 获取线程数
     int threadNum = ui->threadNum->value();
-    strcpy(buffer, "Thread nßum set: ");
+    strcpy(buffer, "Thread num set: ");
     sprintf(temp, "%d", threadNum);
     strcat(buffer, temp);
     ui->log->appendPlainText(buffer);
