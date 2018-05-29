@@ -1,5 +1,5 @@
 # build
-/cmd/build/scanner
+/cmd/dist/scanner
 
 # autosave
 /*/*.autosave
