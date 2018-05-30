@@ -32,3 +32,6 @@ chmod 777 ./scanner
 * portStart: 起始端口
 * portEnd: 结束端口
 * threadNum: 线程数
+
+## 关于
+作者: NUAA 161520311
