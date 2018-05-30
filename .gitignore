@@ -1,2 +1,5 @@
 # autosave
 /*/*.autosave
+
+# build
+/cmd/scanner
