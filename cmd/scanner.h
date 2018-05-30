@@ -18,5 +18,3 @@
 
 // tcp connect 扫描
 int tcp_connect_scan(char *, int);
-// 判断ip地址是否合法
-int is_ip_address_legal(char *);
