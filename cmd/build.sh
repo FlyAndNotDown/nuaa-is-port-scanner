@@ -1,1 +1,1 @@
-gcc ./cmd.c ./scanner.c -o ./dist/scanner -lpthread
+gcc ./cmd.c ./scanner.c -o ./scanner -lpthread
